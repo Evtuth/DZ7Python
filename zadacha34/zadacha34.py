@@ -27,6 +27,7 @@ for i in spisok_fraz:
                 chislo_glasnyh.append(count)
 
 max = chislo_glasnyh[0]
+
 for i in chislo_glasnyh:
     if i > max:
         max = i
@@ -34,9 +35,9 @@ for i in chislo_glasnyh:
 chislo_glasnyh = list(filter(lambda x: x == max, chislo_glasnyh))
 
 if len(spisok_fraz) == len(chislo_glasnyh):
-    print('Парам пам-пам!!!')
+    print('Парам пам-пам! Ритм есть!')
 else:
-    print('Пам парам!!!')
+    print('Пам парам! Ритма нет!')
                 
 
 
